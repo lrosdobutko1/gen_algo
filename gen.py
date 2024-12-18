@@ -11,3 +11,18 @@ def fitness(a, b, c):
     else:
         return abs(1/ans)
     
+def main():
+    solutions = []
+    for s in range(1000):
+        solutions.append( 
+            (
+                random.uniform(0,1000), 
+                random.uniform(0,1000),
+                random.uniform(0,1000), 
+                )
+            )
+        
+    print(solutions[:5])
+
+if __name__ == "__main__":
+    main()
